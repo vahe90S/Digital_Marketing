@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'dorian-Icons';
+  src:  url('../icon/fonts/dorian-Icons.eot?9nmeso');
+  src:  url('../icon/fonts/dorian-Icons.eot?9nmeso#iefix') format('embedded-opentype'),
+  url('../icon/fonts/dorian-Icons.ttf?9nmeso') format('truetype'),
+  url('../icon/fonts/dorian-Icons.woff?9nmeso') format('woff'),
+  url('../icon/fonts/dorian-Icons.svg?9nmeso#dorian-Icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="dorian-"], [class*=" dorian-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'dorian-Icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dorian-pinterest:before {
+  content: "\e900";
+}
+.dorian-google:before {
+  content: "\e901";
+}
+.dorian-twitter:before {
+  content: "\e902";
+}
+.dorian-facebook:before {
+  content: "\e903";
+}
+.dorian-star:before {
+  content: "\e904";
+}
+.dorian-email:before {
+  content: "\e905";
+}
+.dorian-support:before {
+  content: "\e906";
+}
+.dorian-arrow-right:before {
+  content: "\e907";
+}
+.dorian-minus:before {
+  content: "\e908";
+}
+.dorian-plus:before {
+  content: "\e909";
+}
